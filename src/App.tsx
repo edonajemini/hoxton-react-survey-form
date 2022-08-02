@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import {Main} from "./components/Main";
+import Main from "./components/Main";
 
 /*
 The components were built around the assumption that this is what your initial state would look like.
