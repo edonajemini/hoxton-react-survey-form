@@ -1,9 +1,9 @@
 import Header from "./components/Header";
-import Main from "./components/Main";
+import {Main} from "./components/Main";
 
 /*
 The components were built around the assumption that this is what your initial state would look like.
-If you need to do any changes - make sure you change the components & props to match.
+If you need to do any changes - make sure you change the components & props to match. */
 
   const initialForm = {
     review: "",
@@ -16,7 +16,7 @@ If you need to do any changes - make sure you change the components & props to m
     worstFeatures: [],
     timeSpent: []
   };
-*/
+
 
 export default function App() {
   return (
