@@ -14,6 +14,16 @@ li {
 img {
   max-width: 100%;
 }
+.checkbox-list{
+  display: grid;
+  grid-auto-flow: column ;
+  grid-gap: 1 rem;
+}
+.checkbox-list label{
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 0.3 rem;
+}
 
 /* Globals */
 :root {
